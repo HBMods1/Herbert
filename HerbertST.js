@@ -3531,7 +3531,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
                                 displayText: '𝗝𝗼𝗶𝗻 𝗛𝗕𝗠𝗼𝗱𝘀 𝗚𝗿𝗼𝘂𝗽',
-                                    url: `${grp2}`
+                                    url: `${grpj2}`
                                 }            
                             }, {
                                 quickReplyButton: {
