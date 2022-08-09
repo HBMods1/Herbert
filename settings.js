@@ -21,11 +21,14 @@ global.footer = 'HBWABot'
 global.ig = 'https://www.instagam.com/herbert_suantak2'
 global.region = 'India, Mizoram, Saitual, Phuaibuang'
 global.sc = 'https://www.instagram.com/herbert/suantak2'
+global.hbmodsapk = 'https://herbert70.blogspot.com'
+global.grpj = 'https://chat.whatsapp.com/ECtguf6pmRR1eXyeQ76jvO'
+global.grpj2 = 'https://chat.whatsapp.com/IgV6un73n0J9TfzyVsaBRA'
 global.myweb = 'https://youtube.com/c/HB-SuantakOfficial_channel'
 global.packname = 'Siamted by'
 global.author = 'HBWABot'
 global.sessionName = 'session'
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['','!','.','🦒','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
