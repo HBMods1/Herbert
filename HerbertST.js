@@ -202,11 +202,11 @@ module.exports = HBModsMd = async (HBModsMd, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            HBModsMd.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `HBMods Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./HBMedia/herbert.jpg`),"sourceUrl": "https://youtube.com/c/HB-SuantakOfficial_channel"}}}, { quoted: m})
+            HBModsMd.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` ⫹⫺HBMods Channel꧂`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./HBMedia/herbert.jpg`),"sourceUrl": "https://youtube.com/c/HB-SuantakOfficial_channel"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            HBModsMd.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `HBMods Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./HBMedia/herbert.jpg`),"sourceUrl": "https://youtube.com/c/HB-SuantakOfficial_channel"}}}, { quoted: m})
+            HBModsMd.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": ` ⫹⫺HBMods Channel꧂`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./HBMedia/herbert.jpg`),"sourceUrl": "https://youtube.com/c/HB-SuantakOfficial_channel"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -4271,6 +4271,21 @@ await HBModsMd.send5ButImg(from, `` + '' + ' ', `
 ┃╠🔥${prefix}gbwhtsapp
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner👤","id": 'owner'}}] )
+break
+case 'follow': case 'subscribe': case 'join':
+var unicorn = await getBuffer(picak+'Follow Developer')
+await HBModsMd.send5ButImg(from, `` + '' + ' ', `
+┌─❖
+│「 Hi 👋 」
+└┬❖ 「 ${pushname} 」
+┌┤✑  
+│└───────────────┈ ⳹
+│ 𝗙𝗼𝗹𝗹𝗼𝘄 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗼𝗻 
+│ 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 & 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 
+└┬──────────────┈ ⳹
+   │𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗹𝗲𝗰𝘁 𝗧𝗵𝗲 𝗕𝘂𝘁𝘁𝗼𝗻 
+   │𝗕𝗲𝗹𝗼𝘄
+   └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"urlButton": {"displayText": "𝗝𝗼𝗶𝗻 𝗕𝗼𝘁 𝗚𝗿𝗼𝘂𝗽","url": `${grpj}`}},{"urlButton": {"displayText": "𝗛𝗕𝗠𝗼𝗱𝘀 𝗔𝗣𝗞 𝗦𝘁𝗼𝗿𝗲","url": `${hbmodsapk}`}},{"urlButton": {"displayText": "𝗝𝗼𝗶𝗻 𝗛𝗕𝗠𝗼𝗱𝘀 𝗚𝗿𝗼𝘂𝗽","url": `${grpj2}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner👤","id": 'owner'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
