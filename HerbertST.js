@@ -3929,7 +3929,7 @@ await HBModsMd.send5ButImg(from, `` + '' + ' ', `┌─❖
 └┬──────────────┈ ⳹
    │𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗹𝗲𝗰𝘁 𝗧𝗵𝗲 𝗕𝘂𝘁𝘁𝗼𝗻 
    │𝗕𝗲𝗹𝗼𝘄
-   └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗛𝗕𝗪𝗔𝗕𝗼𝘁 𝗚𝗿𝗼𝘂𝗽","url": `${grpj}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "YouTube Pro", "id": 'ytpro'}},{"quickReplyButton": {"displayText": "GBWhatsApp","id": 'gb'}},{"quickReplyButton": {"displayText": "Instagram Pro","id": 'igpro'}}] )
+   └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗛𝗕𝗪𝗔𝗕𝗼𝘁 𝗚𝗿𝗼𝘂𝗽","url": 'https://chat.whatsapp.com/ECtguf6pmRR1eXyeQ76jvO'}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "YouTube Pro", "id": 'ytpro'}},{"quickReplyButton": {"displayText": "GBWhatsApp","id": 'gb'}},{"quickReplyButton": {"displayText": "Instagram Pro","id": 'igpro'}}] )
 break
 
             default:
