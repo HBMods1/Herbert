@@ -3469,9 +3469,9 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Chat With Fellow Users",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu",
-										"description": "Displays The List Of Anonymous Chat Features",
-										"rowId": `${prefix}anonymouschatmenu`
+										"title": "Bot Info",
+										"description": "Displays Bot Info",
+										"rowId": `${prefix}menu`
 									}
 								]
 							},
@@ -4053,18 +4053,27 @@ await HBModsMd.send5ButImg(from, `` + '' + ' ', `
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "List Menu🍱","id": 'command'}},{"quickReplyButton": {"displayText": "Owner👤","id": 'owner'}}] )
 break
-case 'databasemenu':
-var unicorn = await getBuffer(picak+'Database Menu')
-await HBModsMd.send5ButImg(from, `` + '' + ' ', `
-┏━「 ${botname} 」━━⭓ 
-┃╔══✪「 ANONYMOUS CHAT 」	        
-┃╠🔥${prefix}anonymous
-┃╠🔥${prefix}start
-┃╠🔥${prefix}next
-┃╠🔥${prefix}leave
-┃╚═════════════✪
-┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "List Menu🍱","id": 'command'}},{"quickReplyButton": {"displayText": "Owner👤","id": 'owner'}}] )
+case 'menu': case 'alive':
+var unicorn = await getBuffer(picak+'HBWABot')
+await HBModsMd.send5ButImg(from, `` + '' + ' ', `┌─❖
+│「 Hi 👋 」
+└┬「 ${pushname} 」
+┌┤   How are you?😄
+│└───────────────┈ ⳹
+│ 「 BOT INFO 」
+│✙ 𝗦𝗽𝗲𝗲𝗱 : 0.0093 miliseconds
+│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : 3 month
+│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : HBWABot
+│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : Herbert Sauntak 
+│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : +918416093656
+│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : HBMods Fiber
+│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Herbert
+│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : 999+
+└┬──────────────┈ ⳹
+   │✑  Please Select The Button Below
+   └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "List Menu🍱","id": 'command'}},{"quickReplyButton": {"displayText": "All menu🍱","id": 'allmenu'}},{"quickReplyButton": {"displayText": "Owner👤","id":'owner'}}] )
 break
+
 case 'hbmodsmenu':
 var unicorn = await getBuffer(picak+'HBMods Menu')
 await HBModsMd.send5ButImg(from, `` + '' + ' ', `
@@ -4149,26 +4158,6 @@ await HBModsMd.send5ButImg(from, `` + '' + ' ', `┌─❖
    └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "GBWhatsApp","id": 'gb'}},{"quickReplyButton": {"displayText": "Instagram Pro","id": 'igpro'}}] )
 break
 
-case 'menu': case 'alive':
-var unicorn = await getBuffer(picak+'HBWABot')
-await HBModsMd.send5ButImg(from, `` + '' + ' ', `┌─❖
-│「 Hi 👋 」
-└┬
-┌┤「 ${pushname} 」
-│└───────────────┈ ⳹
-│ 「 BOT INFO 」
-│✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : ${global.ownername}
-│✙ 𝗢𝘄𝗻𝗲𝗿 𝗡𝘂𝗺𝗯𝗲𝗿 : ${global.owner}
-│✙ 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : HBMods Fiber
-│✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Herbert
-│✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-└┬──────────────┈ ⳹
-   │✑  Please Select The Button Below
-   └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "List Menu🍱","id": 'command'}},{"quickReplyButton": {"displayText": "All menu🍱","id": 'allmenu'}}] )
-break
             default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return reply(mess.owner)
