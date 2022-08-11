@@ -3367,22 +3367,7 @@ reply("Success Changing Menu To "+q)
 }
 
                     break                     
-            case 'hbmods': case 'follow': case 'subscribe': case 'join':  {
-            	var unicorn = await getBuffer(picak+'Developer')
-await HBModsMd.send5ButImg(from, `` + '' + ' ', `
-┌─❖
-│「 Hi 👋 」
-└┬❖ 「 ${pushname} 」
-┌┤✑  
-│└───────────────┈ ⳹
-│ 𝗙𝗼𝗹𝗹𝗼𝘄 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗼𝗻 
-│ 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺 & 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 
-└┬──────────────┈ ⳹
-   │𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗹𝗲𝗰𝘁 𝗧𝗵𝗲 𝗕𝘂𝘁𝘁𝗼𝗻 
-   │𝗕𝗲𝗹𝗼𝘄
-   └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "GBWhatsApp","id": 'gb'}},{"quickReplyButton": {"displayText": "Instagram Pro","id": 'igpro'}}] )
-break
-                case 'command': {
+                    case 'command': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
