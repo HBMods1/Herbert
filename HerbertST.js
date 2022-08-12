@@ -1200,7 +1200,7 @@ case 'how':
 				if (!text) return replay(`Use Text, Example : ${prefix + command} is my face`)
 					const gimana = [`It's Okay`, `It's Difficult Bro`, `Sorry Bot Can't Answer`, `Try Searching On Google`,`Holy Cow! Really???`,`Dizzy Ah`,`Ohhh I See:(`,`The Patient, Boss:(`,`How Are You?`]
 					const ya = gimana[Math.floor(Math.random() * gimana.length)]
-HBModsMd.sendMessage(from, { text: `Question : ${q}\nAnswer : How ${ya}` }, { quoted: m })
+HBModsMd.sendMessage(from, { text: `Question : How ${q}\nAnswer : ${ya}` }, { quoted: m })
 
 					break
 case 'rate':
@@ -2116,7 +2116,7 @@ break
                 HBModsMd.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mpeg', fileName: `${media.title}.mp3` }, { quoted: m })
             }
             break
-            case 'ytmp4xx': case 'getvideoxx': case 'ytvideoxx': {
+            case 'ytmp4': case 'getvideo': case 'ytvideo': {
                 let { ytv } = require('./lib/y2mate')
                 if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`)
                 let quality = args[1] ? args[1] : '360p'
@@ -3929,7 +3929,7 @@ await HBModsMd.send5ButImg(from, `` + '' + ' ', `┌─❖
 └┬──────────────┈ ⳹
    │𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗹𝗲𝗰𝘁 𝗧𝗵𝗲 𝗕𝘂𝘁𝘁𝗼𝗻 
    │𝗕𝗲𝗹𝗼𝘄
-   └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗛𝗕𝗪𝗔𝗕𝗼𝘁 𝗚𝗿𝗼𝘂𝗽","url": 'https://chat.whatsapp.com/ECtguf6pmRR1eXyeQ76jvO'}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "YouTube Pro", "id": 'ytpro'}},{"quickReplyButton": {"displayText": "GBWhatsApp","id": 'gb'}},{"quickReplyButton": {"displayText": "Instagram Pro","id": 'igpro'}}] )
+   └───────────────┈ ⳹`,unicorn, [{"urlButton": {"displayText": "𝗬𝗼𝘂𝗧𝘂𝗯𝗲","url": `${myweb}`}},{"urlButton": {"displayText": "𝗛𝗕𝗪𝗔𝗕𝗼𝘁 𝗚𝗿𝗼𝘂𝗽","url": `${grpj}`}},{"urlButton": {"displayText": "𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺","url": `${sc}`}},{"quickReplyButton": {"displayText": "YouTube Pro", "id": 'ytpro'}},{"quickReplyButton": {"displayText": "GBWhatsApp","id": 'gb'}},{"quickReplyButton": {"displayText": "Instagram Pro","id": 'igpro'}}] )
 break
 
             default:
